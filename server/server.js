@@ -32,7 +32,7 @@ passport.deserializeUser(async function(id, done) {
 
 fs.readdirSync('./routes').map((r)=> app.use(require('./routes/' + r)));
 mongoose
-  .connect("mongodb+srv://shreyasmishrasm048:@cluster0.ckztmcr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",{
+  .connect("mongodb+srv://shreyasmishrasm048:fstiwrhsb@cluster0.ckztmcr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",{
   })
   .then(() => console.log("DB connected"))
   .catch((err) => console.log("DB Error => ", err))

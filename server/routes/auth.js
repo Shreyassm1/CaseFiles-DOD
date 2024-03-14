@@ -9,8 +9,8 @@ const GoogleStrategy = require('passport-google-oauth20').Strategy;
 //passport set up for google authentication 
 passport.use(new GoogleStrategy({
     //client crendentials 
-    clientID: 'nil',
-    clientSecret: 'nil',
+    clientID: '472353109993-gjg126553g4he0fe7gs5ajepuoqpekv4.apps.googleusercontent.com',
+    clientSecret: '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',
     callbackURL: '/auth/google/callback'
 }, async function(accessToken, refreshToken, profile, done) {
 
